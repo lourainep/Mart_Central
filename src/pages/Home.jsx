@@ -5,7 +5,8 @@ import Categories from "../components/Categories";
 import Footer from "../components/Footer";
 import  CardDeals  from "../components/CardDeals";
 import FlashDeals from "../components/FlashDeals";
-import PaymentCards from "../components/PaymentCards";
+import Carousel from "../components/Carousel";
+
 
 
 export default function Home ()  {
@@ -16,7 +17,7 @@ export default function Home ()  {
     <BotNavbar/>
     <CardDeals/>
     <FlashDeals/>
-    <PaymentCards/>
+    <Carousel/>
     <Categories/>
     <Footer/>
     </>

@@ -55,7 +55,7 @@ export const TopNavbar = () => {
             <Link to='/Mall'>ENTER MALL</Link> 
         
         </li>
-        <li className=" hidden md:block border-r border-gray-400 h-3 mt-1 flex flex-wrap mr-2 pr-2 content-center justify-evenly  ">
+        <li className=" md:block border-r border-gray-400 h-3 mt-1 flex flex-wrap mr-2 pr-2 content-center justify-evenly  ">
         <Link to='/SellerCentre' >START SELLING</Link> 
         </li>
         <li className=" h-3 mt-1 flex flex-wrap mr-2 pr-2 content-center justify-evenly  ">  
