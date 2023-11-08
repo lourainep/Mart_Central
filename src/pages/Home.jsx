@@ -4,7 +4,7 @@ import BotNavbar from "../components/BotNavbar";
 import Categories from "../components/Categories";
 import Footer from "../components/Footer";
 import  CardDeals  from "../components/CardDeals";
-import FlashDeals from "../components/FlashDeals";
+import FakeStore from "../components/FakeStore";
 import Carousel from "../components/Carousel";
 
 
@@ -16,7 +16,7 @@ export default function Home ()  {
     <Navbar/>
     <BotNavbar/>
     <CardDeals/>
-    <FlashDeals/>
+    <FakeStore/>
     <Carousel/>
     <Categories/>
     <Footer/>
