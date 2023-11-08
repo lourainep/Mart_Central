@@ -3,7 +3,7 @@ const Footer = () => {
   return (
     <>
     
-<div class="flex items-end w-full min-h-screen bg-white">
+
    
 <div className=" bg-secondary container mb-0 flex flex-col md:flex-row justify-between items-center min-w-full">
         <div className="container mx-auto flex flex-col items-center mt-4">
@@ -15,7 +15,7 @@ const Footer = () => {
         </div>
       </div>
       </div>
-</div>
+
 <footer className="bg-primary text-textw py-2 w-full mb-0 ">   
 <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
         <div className="text-center md:text-left mb-4 md:mb-0">

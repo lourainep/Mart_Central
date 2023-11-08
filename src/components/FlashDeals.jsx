@@ -36,11 +36,23 @@ const products = [
     originalPrice: '$14.90',
     discountedPrice: '$12.90',
   },
+  {
+    name: 'Scented Candles for Men',
+    image: "src/assets/candles.png",
+    originalPrice: '$14.90',
+    discountedPrice: '$12.90',
+  },
+  {
+    name: 'Scented Candles for Men',
+    image: "src/assets/candles.png",
+    originalPrice: '$14.90',
+    discountedPrice: '$12.90',
+  },
 ];
 
 const FlashDeals = () => {
   return (
-    <div className="bg-white p-4 sm:p-8 md:p-12">
+    <div className="bg-white p-4 sm:p-8 md:p-12 -mt-[5%]">
       <h1 className="text-2xl font-semibold text-center mb-8">Flash Deals</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {products.map((product, index) => (

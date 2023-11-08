@@ -56,7 +56,7 @@ const logo = "src/assets/logo.png";
           <div className='flex md:flex-wrap space-between text-textw mt-10 gap-1'>
                 <ul className='flex flex-row gap-2'>
                <Link to= "/Wishlist">
-               <li className='hidden md:block  px-3 flex flex-col '>
+               <li className='md:block  px-3 flex flex-col '>
                     <span className='hidden md:block lg:block'><AiOutlineHeart/></span>
                     <span>Wishlist</span>
                   </li>

@@ -17,7 +17,6 @@ function Mall() {
     axios.get('https://amazon-product-price-data.p.rapidapi.com/product')
       .then(response => {
         setProducts(response.data);
-        console.log('response.data');
         // Extract and set categories
         const uniqueCategories = [...new Set(response.data.map(product => product.category))];
         setCategories(['all', ...uniqueCategories]);
@@ -37,6 +36,7 @@ function Mall() {
 
   return (
     <>
+    <TopNavbar/>
     <Navbar/>
     <div className="container mx-auto p-4">
       <h1 className="text-3xl font-semibold mb-4">Products</h1>
@@ -60,7 +60,7 @@ function Mall() {
         {products
           .filter(product => selectedCategory === 'all' || product.category === selectedCategory)
           .map((product) => (
-            <div key={product.id} className="border p-4 rounded shadow-md">
+            <div key={product.id} className="border p-4 rounded shadow-lg"> {/* Added shadow-lg class */}
               <h2 className="text-lg font-semibold">{product.title}</h2>
               <img
                 src={product.image}

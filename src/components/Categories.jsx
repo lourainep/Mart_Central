@@ -25,32 +25,32 @@ const Categories = () => {
     {
       id: 3,
       name: 'Gadgets',
-      image: 'gadgets.png',
+      image: 'src/assets/gadgets.png',
     },
     {
       id: 4,
-      name: 'Collectibles',
-      image: 'collect.png',
+      name: 'Jewelries',
+      image: 'src/assets/jewelries.png',
     },
     {
       id: 5,
-      name: 'Jewelries',
-      image: 'jewelries.png',
+      name: 'Sports',
+      image: 'src/assets/sports.png',
     },
     {
       id: 6,
-      name: 'Sports',
-      image: 'sports.png',
+      name: 'Men',
+      image: 'src/assets/men.png',
     },
     {
       id: 7,
-      name: 'Men',
-      image: 'men.png',
+      name: 'Women',
+      image: 'src/assets/women.png',
     },
     {
       id: 8,
-      name: 'Women',
-      image: 'women.png',
+      name: 'Toys',
+      image: 'src/assets/toys.png',
     },
   ];
 
@@ -60,12 +60,30 @@ const Categories = () => {
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1024, // Medium screens
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 768, // Small screens
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 640, // Extra small screens
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
   };
 
   return (
-    <>
-    <div className="container mx-auto p-4">
-      <h2 className="text-2xl font-bold mb-4">Categories</h2>
+    <div className="container mx-auto p-4 mb-5">
       <Slider {...sliderSettings}>
         {categories.map((category) => (
           <div key={category.id}>
@@ -86,7 +104,6 @@ const Categories = () => {
         ))}
       </Slider>
     </div>
-    </>
   );
 };
 

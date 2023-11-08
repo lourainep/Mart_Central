@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import {GrStorage} from 'react-icons/gr'
-import TopNavbar from '../components/TopNavbar';
 import Navbar from '../components/Navbar';
-import Footer from '../components/Footer'
 
 
 const CreateAccount = () => {
@@ -29,9 +27,7 @@ const CreateAccount = () => {
 
   return (
     <>
-    <TopNavbar/>
     <Navbar/>
-    
     <div className="container mx-auto p-4">
         <div className="container ml-[10%] p-4">
         <img src="./src/assets/favicon 1.png" alt="" />
@@ -112,7 +108,6 @@ const CreateAccount = () => {
         </button>
       </form>
     </div>
-    <Footer/>
     </>
   );
 };
