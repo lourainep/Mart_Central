@@ -15,12 +15,12 @@ const Categories = () => {
     {
       id: 1,
       name: 'Grocery & Essentials',
-      image: {images1},
+      image: 'src/assets/grocery.png',
     },
     {
       id: 2,
       name: 'Furnitures',
-      image: 'furnitures.png',
+      image: 'src/assets/furnitures.png',
     },
     {
       id: 3,

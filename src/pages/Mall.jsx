@@ -5,7 +5,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
 function Mall() {
-  const [products, setProducts] = useState([all]);
+  const [products, setProducts] = useState([]);
   const [cart, setCart] = useState([]);
   const [categories, setCategories] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState('all');
@@ -14,6 +14,7 @@ function Mall() {
     axios.get('https://fakestoreapi.com/products')
       .then(response => {
         setProducts(response.data);
+        console.log('response.data');
         // Extract and set categories
         const uniqueCategories = [...new Set(response.data.map(product => product.category))];
         setCategories(['all', ...uniqueCategories]);
@@ -32,6 +33,8 @@ function Mall() {
   };
 
   return (
+    <>
+    <Navbar/>
     <div className="container mx-auto p-4">
       <h1 className="text-3xl font-semibold mb-4">Products</h1>
 
@@ -86,6 +89,8 @@ function Mall() {
         </ul>
       </div>
     </div>
+    <Footer/>
+    </>
   );
 }
 

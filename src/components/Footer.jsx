@@ -122,26 +122,14 @@ const Footer = () => {
         <div className="text-center md:text-left">
           <h3 className="text-lg sm:text-xl font-bold">Accepted Payment Methods</h3>
           <div className="flex justify-center md:justify-start items-center space-x-4 mt-2">
-            <img
-              src="./src/assets/visa.png"
-              alt="Visa"
-              className="h-4 sm:h-5"
-            />
-            <img
-              src="./src/assets/masterc.png"
-              alt="MasterCard"
-              className="h-4 sm:h-5"
-            />
-            <img
-              src="./src/assets/jcb.png"
-              alt="JCB"
-              className="h-4 sm:h-5"
-            />
-            <img
-              src="https://via.placeholder.com/40x20"
-              alt="American Express"
-              className="h-4 sm:h-5"
-            />
+          <img
+      src="src/assets/visa.svg"
+      className="aspect-[2.86] object-contain object-center w-full overflow-hidden self-stretch grow mt-3.5"
+    />
+             <img
+      src="src/assets/mastercard.svg"
+      className="aspect-[2.86] object-contain object-center w-full overflow-hidden self-stretch grow mt-3.5"
+    />
           </div>
         </div>
       </div>
