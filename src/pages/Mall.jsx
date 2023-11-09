@@ -46,74 +46,70 @@ const Mall = () => {
       <TopNavbar />
       <Navbar />
       <div className="container mx-auto p-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-          <div>
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+          <div className="mb-4">
             <h2 className="text-xl font-semibold mb-2">Products</h2>
-            <div className="mb-4">
-              <label htmlFor="category" className="text-black">
-                Select Category:
-              </label>
-              <select
-                id="category"
-                className="ml-2 p-2 border rounded"
-                value={selectedCategory}
-                onChange={handleCategoryChange}
-              >
-                <option value="all">All</option>
-                <option value="electronics">Electronics</option>
-                <option value="jewelery">Jewelry</option>
-                <option value="men's clothing">Men's Clothing</option>
-                <option value="women's clothing">Women's Clothing</option>
-              </select>
-            </div>
-            <div className="grid gap-4">
-              {filteredProducts.map((product) => (
-                <div key={product.id} className="border p-4 rounded-md">
-                  <img src={product.image} alt={product.title} className="w-16 h-16 mb-2 mx-auto" />
-                  <p className="text-black">{product.title}</p>
-                  <p className="text-black">${product.price}</p>
-                  <button
-                    onClick={() => addToCart(product)}
-                    className="bg-primary text-white px-2 py-1 mt-2 rounded hover:bg-primary"
-                  >
-                    Add to Cart
-                  </button>
-                  <button
-                    onClick={handleBuyNow}
-                    className="bg-primary text-white px-2 py-1 mt-2 rounded hover:bg-primary ml-2"
-                  >
-                    Buy Now
-                  </button>
-                </div>
-              ))}
-            </div>
+            <label htmlFor="category" className="text-black">
+              Select Category:
+            </label>
+            <select
+              id="category"
+              className="ml-2 p-2 border rounded"
+              value={selectedCategory}
+              onChange={handleCategoryChange}
+            >
+              <option value="all">All</option>
+              <option value="electronics">Electronics</option>
+              <option value="jewelery">Jewelry</option>
+              <option value="men's clothing">Men's Clothing</option>
+              <option value="women's clothing">Women's Clothing</option>
+            </select>
           </div>
-
-          <div>
-            <h2 className="text-xl font-semibold mb-2">Cart</h2>
-            <div className="grid gap-4">
-              {cart.map((item) => (
-                <div key={item.id} className="border p-4 rounded-md">
-                  <img src={item.image} alt={item.title} className="w-16 h-16 mb-2 mx-auto" />
-                  <p className="text-black">{item.title}</p>
-                  <p className="text-black">${item.price}</p>
-                  <button
-                    onClick={handleBuyNow}
-                    className="bg-primary text-white px-2 py-1 mt-2 rounded hover:bg-primary ml-2"
-                  >
-                    Buy Now
-                  </button>
-                </div>
-              ))}
-              {cart.length > 0 && (
-                <button
-                  onClick={clearCart}
-                  className="bg-primary text-white px-2 py-1 mt-2 rounded hover:bg-primary"
-                >
-                  Clear Bag
-                </button>
-              )}
+          {filteredProducts.map((product) => (
+            <div key={product.id} className="border p-4 rounded-md mb-4">
+              <img src={product.image} alt={product.title} className="w-16 h-16 mb-2 mx-auto" />
+              <p className="text-black">{product.title}</p>
+              <p className="text-black">${product.price}</p>
+              <button
+                onClick={() => addToCart(product)}
+                className="bg-primary text-white px-2 py-1 mt-2 rounded hover:bg-primary"
+              >
+                Add to Cart
+              </button>
+              <button
+                onClick={handleBuyNow}
+                className="bg-primary text-white px-2 py-1 mt-2 rounded hover:bg-primary ml-2"
+              >
+                Buy Now
+              </button>
             </div>
+          ))}
+        </div>
+
+        <div className="mb-4">
+          <h2 className="text-xl font-semibold mb-2">Cart</h2>
+          <div className="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+            {cart.map((item) => (
+              <div key={item.id} className="border p-4 rounded-md mb-4">
+                <img src={item.image} alt={item.title} className="w-16 h-16 mb-2 mx-auto" />
+                <p className="text-black">{item.title}</p>
+                <p className="text-black">${item.price}</p>
+                <button
+                  onClick={handleBuyNow}
+                  className="bg-primary text-white px-2 py-1 mt-2 rounded hover:bg-primary ml-2"
+                >
+                  Buy Now
+                </button>
+              </div>
+            ))}
+            {cart.length > 0 && (
+              <button
+                onClick={clearCart}
+                className="bg-primary h-10 text-white rounded hover:bg-primary"
+              >
+                Clear Bag
+              </button>
+            )}
           </div>
         </div>
       </div>
@@ -132,11 +128,10 @@ const Mall = () => {
             </ul>
             <button
               onClick={handleCheckoutClose}
-              className="bg-primary text-white px-2 py-1 mt-4 rounded hover:primary"
+              className="bg-primary text-white px-2 py-1 mt-4 rounded hover:bg-red-700"
             >
-              Close 
+              Close Checkout
             </button>
-            
           </div>
         </div>
       )}
