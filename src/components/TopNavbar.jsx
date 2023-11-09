@@ -80,7 +80,7 @@ export const TopNavbar = () => {
           </li>
          
           <li className="mt-1 mr-2">
-            <span>CUSTOMER CARE</span>
+            <Link to='/CustomerCare'className="uppercase">Customer Care</Link>
           </li>
           <Link to="/CreateAccount"><li className="border-r border-gray-400 h-3 mt-1 pr-1">
             SIGN UP

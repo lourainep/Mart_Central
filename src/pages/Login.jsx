@@ -29,7 +29,7 @@ const Login = () => {
       <TopNavbar />
       <Navbar />
 
-      <div className=" w-[50%] mx-auto flex flex-wrap flex-col items-center  bg-stone rounded-lg shadow-md p-8 max-w-md mt-5 mb-5">
+      <div className=" w-[50%] mx-auto flex flex-wrap flex-col items-center  rounded-lg shadow-md p-8 max-w-md mt-5 mb-5">
         <img src="./src/assets/favicon 1.png" alt="" className="text-center justify-center" />
 
         <h2 className="text-2xl font-inter text-center font-extrabold text-gray mb-4">Login to my</h2>

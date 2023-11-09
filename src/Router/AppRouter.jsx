@@ -8,6 +8,7 @@ import Notifications from "../pages/Notifications";
 import StartSelling from "../pages/StartSelling";
 import { Help } from "grommet-icons";
 import Helphot from "../pages/Helphot";
+import CustomerCare from "../pages/CustomerCare";
 
 export default function AppRouter () {
   return (
@@ -22,6 +23,7 @@ export default function AppRouter () {
         <Route path="/Notifications" element = {<Notifications/>}/>
         <Route path ="/StartSelling" element = {<StartSelling/>}/>
         <Route path ="/Helphot" element = {<Helphot/>}/>
+        <Route path="/CustomerCare" element ={<CustomerCare/>}/>
 
         
   
