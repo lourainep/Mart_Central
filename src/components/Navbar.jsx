@@ -56,7 +56,7 @@ const Navbar = () => {
           <Link to="/Wishlist">
             <li className="md:block px-3 flex flex-col">
               <span className=" md:block lg:block text-2xl  ml-1 lg:ml-8">
-                <AiOutlineHeart />
+               <Link to="/Wishlist"> <AiOutlineHeart /></Link>
               </span>
               <span className='hidden md:block lg:block text-xs  lg: ml-5 uppercase'>Wishlist</span>
             </li>
