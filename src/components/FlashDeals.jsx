@@ -37,16 +37,16 @@ const products = [
     discountedPrice: '$12.90',
   },
   {
-    name: 'Scented Candles for Men',
-    image: "src/assets/candles.png",
-    originalPrice: '$14.90',
-    discountedPrice: '$12.90',
+    name: 'Lenovo Laptop IdeaPad',
+    image: "src/assets/laptop.png",
+    originalPrice: '$299.00',
+    discountedPrice: '$199.00',
   },
   {
-    name: 'Scented Candles for Men',
-    image: "src/assets/candles.png",
-    originalPrice: '$14.90',
-    discountedPrice: '$12.90',
+    name: 'Orange Hoodie',
+    image: "src/assets/hoodie.png",
+    originalPrice: '$10.45',
+    discountedPrice: '$5.75',
   },
 ];
 
