@@ -1,13 +1,12 @@
 import images1 from 'src/assets/card1.png'
+import images2 from 'src/assets/card2.png'
+import images3 from 'src/assets/card3.png'
+import images4 from 'src/assets/card4.png'
+import images5 from 'src/assets/card5.png'
+import images6 from 'src/assets/card6.png'
+import images7 from 'src/assets/card7.png'
+import images8 from 'src/assets/card8.png'
 
-const images1 = "src/assets/card1.png"
-const images2= "src/assets/card2.png"
-const images3 = "src/assets/card3.png"
-const images4 = "src/assets/card4.png"
-const images5 = "src/assets/card5.png"
-const images6 = "src/assets/card6.png"
-const images7 = "src/assets/card7.png"
-const images8 = "src/assets/card8.png"
 
 
 
