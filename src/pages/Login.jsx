@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { GrStorage } from 'react-icons/gr';
 import Navbar from '../components/Navbar';
 import TopNavbar from '../components/TopNavbar';
+import Footer from '../components/Footer';
 
 
 
@@ -89,6 +90,7 @@ const Login = () => {
         </button>
       </form>
     </div>
+
     </>
   );
 };
