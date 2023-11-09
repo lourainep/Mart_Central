@@ -17,7 +17,7 @@ const CategoryList = () => {
       {categories.map((category, index) => (
         <button
           key={index}
-          className="px-4 py-2 bg-blue-500 hover:bg-blue-600 hover:underline text-white ml-[5%] rounded-md text-sm"
+          className=" hidden md:block px-4 py-2 bg-blue-500 hover:bg-blue-600 hover:underline text-white ml-[5%] rounded-md text-sm"
         >
           {category}
         </button>

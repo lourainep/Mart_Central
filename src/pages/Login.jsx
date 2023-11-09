@@ -41,8 +41,8 @@ const Login = () => {
       <h2 className="text-2xl font-inter  text-center items-center font-extrabold text-gray mb-4 ">Login to my</h2> 
 
       <div className=" mx-auto p-4">
-     
-        <p className='underline'>I don't have an account.</p>
+
+        <p className='underline'>I don't have an account</p>
 
         </div>
       <form onSubmit={handleSubmit} className="max-w-sm " >

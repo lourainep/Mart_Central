@@ -55,10 +55,10 @@ const Navbar = () => {
         <ul className="flex flex-row gap-2 text-textw">
           <Link to="/Wishlist">
             <li className="md:block px-3 flex flex-col">
-              <span className="hidden md:block lg:block ">
+              <span className=" md:block lg:block ">
                 <AiOutlineHeart />
               </span>
-              <span>Wishlist</span>
+              <span className='hidden md:block lg:block'>Wishlist</span>
             </li>
           </Link>
           <li className="ml-0 text-textw">
@@ -69,7 +69,10 @@ const Navbar = () => {
             <span className="text-2xl">
               <AiOutlineUser />
             </span>
-            <span className="hidden md:block lg:block text-xs">LOGIN</span>
+            <span className="hidden md:block lg:block text-xs">
+              <Link to ='/Login'>LOGIN</Link>
+
+            </span>
           </li>
         </ul>
       </div>
