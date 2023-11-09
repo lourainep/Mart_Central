@@ -14,7 +14,7 @@ function Mall() {
   useEffect(() => {
 
     // 'https://fakestoreapi.com/products'
-    axios.get('https://amazon-product-price-data.p.rapidapi.com/product')
+    axios.get('https://fakestoreapi.com/products')
       .then(response => {
         setProducts(response.data);
         // Extract and set categories

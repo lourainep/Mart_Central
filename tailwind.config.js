@@ -11,7 +11,7 @@ export default {
             textw: "#FFFFFF",
             yellow: "#FFE933",
             brown: "#874F00",
-            red: "D41818",
+            red: "#D41818",
             stone: "#949191",
             green: "#196B30",
             amber: "   #F08C00",

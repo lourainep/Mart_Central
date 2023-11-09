@@ -78,9 +78,7 @@ export const TopNavbar = () => {
               <button className="">DOWNLOAD APP</button>
            
           </li>
-          <li className="hidden md:block mt-1 mr-2">
-            TRACK MY ORDER 
-          </li>
+         
           <li className="mt-1 mr-2">
             <span>CUSTOMER CARE</span>
           </li>
