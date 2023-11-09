@@ -25,7 +25,7 @@ const Navbar = () => {
       </div>
 
       <div className="object-cover md:ml-10 md:mr-20">
-        <Link to="/">
+        <Link to="/Home">
           <img
             src={logo}
             alt="Logo"
