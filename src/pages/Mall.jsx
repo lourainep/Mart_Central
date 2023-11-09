@@ -118,19 +118,20 @@ const Mall = () => {
         <div className="fixed top-0 left-0 w-full h-full bg-gray-500 bg-opacity-50 flex items-center justify-center">
           <div className="bg-stone p-4 rounded-md">
             <h2 className="text-xl font-semibold mb-4">Checkout</h2>
-            <ul>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
               {cart.map((item) => (
-                <li key={item.id} className="mb-2">
-                  <img src={item.image} alt={item.title} className="w-16 h-16 mr-2" />
-                  {item.title} - ${item.price}
-                </li>
+                <div key={item.id} className="border p-4 rounded-md">
+                  <img src={item.image} alt={item.title} className="w-16 h-16 mb-2 mx-auto" />
+                  <p className="text-black">{item.title}</p>
+                  <p className="text-black">${item.price}</p>
+                </div>
               ))}
-            </ul>
+            </div>
             <button
               onClick={handleCheckoutClose}
-              className="bg-primary text-white px-2 py-1 mt-4 rounded hover:bg-red-700"
+              className="bg-primary text-white px-2 py-1 mt-4 rounded hover:bg-primary"
             >
-              Close Checkout
+              Close
             </button>
           </div>
         </div>
