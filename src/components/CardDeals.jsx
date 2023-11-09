@@ -1,12 +1,12 @@
 
-const images1 = "src/assets/card 1.png"
-const images2= "src/assets/card 2.png"
-const images3 = "src/assets/card 3.png"
-const images4 = "src/assets/card 4.png"
-const images5 = "src/assets/card 5.png"
-const images6 = "src/assets/card 6.png"
-const images7 = "src/assets/card 7.png"
-const images8 = "src/assets/card 8.png"
+const images1 = "src/assets/card1.png"
+const images2= "src/assets/card2.png"
+const images3 = "src/assets/card3.png"
+const images4 = "src/assets/card4.png"
+const images5 = "src/assets/card5.png"
+const images6 = "src/assets/card6.png"
+const images7 = "src/assets/card7.png"
+const images8 = "src/assets/card8.png"
 
 
 
