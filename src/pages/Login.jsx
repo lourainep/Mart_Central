@@ -3,6 +3,7 @@ import { GrStorage } from 'react-icons/gr';
 import Navbar from '../components/Navbar';
 import TopNavbar from '../components/TopNavbar';
 import Footer from '../components/Footer';
+import { Link } from 'react-router-dom';
 
 
 
@@ -42,7 +43,7 @@ const Login = () => {
 
       <div className=" mx-auto p-4">
 
-        <p className='underline'>I don't have an account</p>
+        <Link to='/CreateAccount' className='underline'>I don't have an account</Link>
 
         </div>
       <form onSubmit={handleSubmit} className="max-w-sm " >

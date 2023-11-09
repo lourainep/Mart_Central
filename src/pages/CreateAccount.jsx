@@ -40,7 +40,8 @@ const CreateAccount = () => {
 
       <div className=" mx-auto p-4">
       <p className="text-sm font-semibold">Enter your account details</p> 
-        <p>I already have an account.</p>
+        
+      <span>I already have an account </span>
 
         </div>
       <form onSubmit={handleSubmit} className="max-w-sm " >
