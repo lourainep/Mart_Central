@@ -1,13 +1,15 @@
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import images1  from "../assets/grocery.png"
+import images2 from "../assets/furnitures.png"
+import images3 from "../assets/gadgets.png"
+import images4 from "../assets/jewelries.png"
+import images5 from "../assets/sports.png"
+import images6 from "../assets/men.png"
+import images7 from "../assets/women.png"
+import images8 from "../assets/toys.png"
 
-const images1 = "src/assets/grocery.png"
-const images2= "src/assets/hoodie.png"
-const images3= "src/assets/flower.png"
-const images4= "src/assets/xmas.png"
-const images5= "src/assets/pan.png"
-const images6= "src/assets/candles.png"
 
 
 const Categories = () => {
@@ -15,42 +17,42 @@ const Categories = () => {
     {
       id: 1,
       name: 'Grocery & Essentials',
-      image: 'src/assets/grocery.png',
+      image: [images1],
     },
     {
       id: 2,
       name: 'Furnitures',
-      image: 'src/assets/furnitures.png',
+      image: [images2],
     },
     {
       id: 3,
       name: 'Gadgets',
-      image: 'src/assets/gadgets.png',
+      image: [images3],
     },
     {
       id: 4,
       name: 'Jewelries',
-      image: 'src/assets/jewelries.png',
+      image: [images4],
     },
     {
       id: 5,
       name: 'Sports',
-      image: 'src/assets/sports.png',
+      image: [images5],
     },
     {
       id: 6,
       name: 'Men',
-      image: 'src/assets/men.png',
+      image: [images6],
     },
     {
       id: 7,
       name: 'Women',
-      image: 'src/assets/women.png',
+      image: [images7],
     },
     {
       id: 8,
       name: 'Toys',
-      image: 'src/assets/toys.png',
+      image: [images8],
     },
   ];
 

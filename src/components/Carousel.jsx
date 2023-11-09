@@ -1,11 +1,15 @@
-
+import images1 from  "../assets/1.png"
+import images2 from "../assets/2.png"
+import images3 from "../assets/3.png"
+import images4 from "../assets/4.png"
 import React, { useState, useEffect } from 'react';
 
 const images = [
-  'src/assets/1.png',
-  'src/assets/2.png',
-  'src/assets/3.png',
-  'src/assets/4.png',
+  
+  [images1],
+  [images2],
+  [images3],
+  [images4],
  
 ];
 

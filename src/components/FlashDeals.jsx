@@ -1,50 +1,59 @@
+import images1 from  "../assets/laptop.png"
+import images2 from "../assets/hoodie.png"
+import images3 from "../assets/flower.png"
+import images4 from "../assets/xmas.png"
+import images5 from "../assets/pan.png"
+import images6 from "../assets/candles.png"
+import images7 from "../assets/laptop.png"
+import images8 from "../assets/hoodie.png"
+
 
 const products = [
   {
     name: 'Lenovo Laptop IdeaPad',
-    image: "src/assets/laptop.png",
+    image: [images1],
     originalPrice: '$299.00',
     discountedPrice: '$199.00',
   },
   {
     name: 'Orange Hoodie',
-    image: "src/assets/hoodie.png",
+    image: [images2],
     originalPrice: '$10.45',
     discountedPrice: '$5.75',
   },
   {
     name: 'Wreath Handmade',
-    image: "src/assets/flower.png",
+    image: [images3],
     originalPrice: '$15.00',
     discountedPrice: '$12.00',
   },
   {
     name: 'Spooky Women Christmas Santa',
-    image: "src/assets/xmas.png",
+    image: [images4],
     originalPrice: '$142.59',
     discountedPrice: '$99.99',
   },
   {
     name: 'Copper Chef 8" Round Fry Pan',
-    image: "src/assets/pan.png",
+    image: [images5],
     originalPrice: '$142.59',
     discountedPrice: '$99.99',
   },
   {
     name: 'Scented Candles for Men',
-    image: "src/assets/candles.png",
+    image: [images6],
     originalPrice: '$14.90',
     discountedPrice: '$12.90',
   },
   {
     name: 'Lenovo Laptop IdeaPad',
-    image: "src/assets/laptop.png",
+    image: [images7],
     originalPrice: '$299.00',
     discountedPrice: '$199.00',
   },
   {
     name: 'Orange Hoodie',
-    image: "src/assets/hoodie.png",
+    image: [images8],
     originalPrice: '$10.45',
     discountedPrice: '$5.75',
   },
