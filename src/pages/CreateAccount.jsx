@@ -30,7 +30,7 @@ const CreateAccount = () => {
       <TopNavbar />
       <Navbar />
       <div className="container mx-auto flex items-center justify-center min-h-screen bg-white">
-        <div className="bg-stone rounded-lg shadow-md p-8 max-w-md w-full mt-5 mb-5">
+        <div className="rounded-lg shadow-md p-8 max-w-md w-full mt-5 mb-5">
           <img src="/src/assets/favicon 1.png" alt="Logo" className="mx-auto" />
           <h2 className="text-2xl font-extrabold text-gray mt-4 text-center">
             Create your Mart Central Account
@@ -112,7 +112,7 @@ const CreateAccount = () => {
 </div>
 <button
   type="submit"
-  className="bg-primary text-black py-2 px-4 rounded-lg hover:bg-yellow-500 w-full"
+  className="bg-primary text-textw py-2 px-4 rounded-lg hover:bg-yellow-500 w-full"
 >
   Create Account
 </button>

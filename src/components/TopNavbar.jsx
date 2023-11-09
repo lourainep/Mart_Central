@@ -61,7 +61,7 @@ export const TopNavbar = () => {
         </li>
         <li className=" h-3 mt-1 flex flex-wrap mr-2 pr-2 content-center justify-evenly  ">  
           <span className="mr-1"><FiHelpCircle/></span>
-          <Link to='/Help' >HELP</Link> 
+          <Link to='/Helphot' >HELP</Link> 
         </li>
       </ul>
     </div>

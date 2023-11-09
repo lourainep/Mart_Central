@@ -6,6 +6,8 @@ import { LogIn } from "react-feather";
 import Login from "../pages/Login";
 import Notifications from "../pages/Notifications";
 import StartSelling from "../pages/StartSelling";
+import { Help } from "grommet-icons";
+import Helphot from "../pages/Helphot";
 
 export default function AppRouter () {
   return (
@@ -19,6 +21,8 @@ export default function AppRouter () {
         <Route path="/Login" element = {<Login/>}/>
         <Route path="/Notifications" element = {<Notifications/>}/>
         <Route path ="/StartSelling" element = {<StartSelling/>}/>
+        <Route path ="/Helphot" element = {<Helphot/>}/>
+
         
   
     </Routes>
