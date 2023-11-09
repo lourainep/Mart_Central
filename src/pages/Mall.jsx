@@ -4,6 +4,7 @@ import Footer from '../components/Footer';
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
+
 function Mall() {
   const [products, setProducts] = useState([]);
   const [cart, setCart] = useState([]);
@@ -11,6 +12,8 @@ function Mall() {
   const [selectedCategory, setSelectedCategory] = useState('all');
 
   useEffect(() => {
+
+    // 'https://fakestoreapi.com/products'
     axios.get('https://fakestoreapi.com/products')
       .then(response => {
         setProducts(response.data);
@@ -22,7 +25,7 @@ function Mall() {
         console.error('Error fetching data:', error);
       });
   }, []);
-
+// add to cart
   const addToCart = (product) => {
     setCart([...cart, product]);
   };

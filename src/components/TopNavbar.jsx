@@ -2,6 +2,7 @@ import {Link} from "react-router-dom";
 import { AiOutlineBell, } from 'react-icons/ai'
 import {RxDividerVertical} from 'react-icons/rx'
 import {FiHelpCircle} from 'react-icons/fi'
+
 // const TopNavbar = () => {
 //   return (
 //     <>
@@ -77,9 +78,7 @@ export const TopNavbar = () => {
               <button className="">DOWNLOAD APP</button>
            
           </li>
-          <li className="hidden md:block mt-1 mr-2">
-            TRACK MY ORDER 
-          </li>
+         
           <li className="mt-1 mr-2">
             <span>CUSTOMER CARE</span>
           </li>
