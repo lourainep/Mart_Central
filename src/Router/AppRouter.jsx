@@ -4,6 +4,7 @@ import Mall from "../pages/Mall";
 import CreateAccount from "../pages/CreateAccount";
 import { LogIn } from "react-feather";
 import Login from "../pages/Login";
+import Notifications from "../pages/Notifications";
 
 export default function AppRouter () {
   return (
@@ -15,6 +16,8 @@ export default function AppRouter () {
         <Route path="/Mall" element={<Mall/>}/>
         <Route path="/CreateAccount" element={<CreateAccount/>}/>
         <Route path="/Login" element = {<Login/>}/>
+        <Route path="/Notifications" element = {<Notifications/>}/>
+        
   
     </Routes>
     
