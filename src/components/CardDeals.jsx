@@ -1,11 +1,11 @@
-import images1 from 'src/assets/card1.png'
-import images2 from 'src/assets/card2.png'
-import images3 from 'src/assets/card3.png'
-import images4 from 'src/assets/card4.png'
-import images5 from 'src/assets/card5.png'
-import images6 from 'src/assets/card6.png'
-import images7 from 'src/assets/card7.png'
-import images8 from 'src/assets/card8.png'
+import images1 from  "../assets/card1.png"
+import images2 from "../assets/card2.png"
+import images3 from "../assets/card3.png"
+import images4 from "../assets/card4.png"
+import images5 from "../assets/card5.png"
+import images6 from "../assets/card6.png"
+import images7 from "../assets/card7.png"
+import images8 from "../assets/card8.png"
 
 
 
