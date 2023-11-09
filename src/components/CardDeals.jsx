@@ -1,3 +1,4 @@
+import images1 from 'src/assets/card1.png'
 
 const images1 = "src/assets/card1.png"
 const images2= "src/assets/card2.png"
