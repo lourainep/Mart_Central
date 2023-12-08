@@ -6,15 +6,9 @@ export default {
     ],
     theme: {
         colors: {
-            primary: "#DA1212",
-            secondary: "#EA1616",
-            textw: "#FFFFFF",
-            yellow: "#FFE933",
-            brown: "#874F00",
-            red: "#D41818",
-            stone: "#949191",
-            green: "#196B30",
-            amber: "   #F08C00",
+            white: "#FFFFFF",
+            red: "#900C3F",
+            gray: "#949191",
         },
         extend: {},
     },
